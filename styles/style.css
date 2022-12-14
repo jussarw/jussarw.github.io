@@ -33,13 +33,16 @@ footer {
 
 @media screen and (max-width: 576px) {
   form.search-field {
-    display: none;
+    display: none !important;
   }
 }
 
 @media screen and (min-width: 992px) {
   div.content {
     max-width: 1200px;
+  }
+  header {
+    justify-content: center;
   }
 }
 
