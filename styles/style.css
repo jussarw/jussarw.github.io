@@ -42,7 +42,7 @@ footer {
     max-width: 1200px;
   }
   header {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
